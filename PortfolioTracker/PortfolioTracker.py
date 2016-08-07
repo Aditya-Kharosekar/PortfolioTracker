@@ -2,7 +2,7 @@ import os
 import sqlite3
 
 db_filename = "Database.db"
-schema_filename = "Database_schema.sql"
+schema_filename = "Database_schema.sql" #contains the schema for the database.
 
 db_is_new = not os.path.exists(db_filename) #False if db already exists. True if it does not
 
