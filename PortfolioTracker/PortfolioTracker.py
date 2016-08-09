@@ -38,6 +38,7 @@ def processAdd():
     print("Transaction successfully entered")
     conn.close()
 
+# function to remove a stock from the portfolio
 def processRemove():
 
 
