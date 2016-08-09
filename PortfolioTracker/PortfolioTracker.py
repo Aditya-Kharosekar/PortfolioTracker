@@ -38,6 +38,8 @@ def processAdd():
     print("Transaction successfully entered")
     conn.close()
 
+def processRemove():
+
 
 def processSearch():
     conn = sqlite3.connect(db_filename)
